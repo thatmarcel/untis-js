@@ -100,7 +100,7 @@ const fetchTimetable = async (serverHostname, loginName, authCookieString, start
         entry.lsNumber = entryJSON["lsnumber"];
 
         return entry;
-    });
+    }).sort((a, b) => (a.date.getTime() === b.date.getTime()) ? (a.startTime - b.startTime) : (a.date - b.date));
 
     return entries;
 }
