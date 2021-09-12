@@ -1,0 +1,31 @@
+{
+  "name": "untis-js",
+  "version": "1.0.0",
+  "description": "WebUntis client for Node.js",
+  "main": "main.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatmarcel/untis-js"
+  },
+  "keywords": [
+    "webuntis",
+    "webuntis-client",
+    "untis",
+    "untis-client",
+    "school",
+    "education"
+  ],
+  "author": "thatmarcel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatmarcel/untis-js/issues"
+  },
+  "homepage": "https://github.com/thatmarcel/untis-js",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "type": "module"
+}
