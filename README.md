@@ -12,6 +12,8 @@ If you want to use it in a CommonJS project, you can use the async `import()` fu
 ```javascript
 const untis = (...args) => import("untis-js").then(({ default: untis }) => untis(...args));
 ```
+Alternatively, consider switching to ESM by renaming your `.js` files to `.mjs` or adding `"type": "module"` in your package.json file. This will allow you to import modules with the `import` keyword. Check out [this post](https://blog.jim-nielsen.com/2020/switching-from-cjs-to-esm/) for more information on switching to ESM.
+
 ### Example
 ```javascript
 import untis from "untis-js";
